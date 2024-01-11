@@ -1,0 +1,92 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgb(67, 218, 252), rgb(92, 163, 245));
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+.board {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+
+  margin-bottom: 10px;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.score {
+  display: flex;
+  gap: 2px;
+  margin-right: 30px;
+}
+
+.letter {
+  background-color: rgb(251, 149, 5);
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 75px;
+  color: white;
+  border-color: white;
+  border-width: 0.5px;
+  border-radius: 10px;
+  margin: 1px;
+}
+
+input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-width: 0px;
+  border-color: rgb(246, 244, 244);
+}
+
+#enter {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: rgb(245, 243, 243);
+  border-width: 1px;
+}
+
+.input {
+  display: flex;
+}
+.reset {
+  overflow: hidden;
+}
+
+#reset {
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: white;
+  background-color: rgb(251, 149, 5);
+  color: white;
+  padding: 5px;
+}
+
+.response {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
